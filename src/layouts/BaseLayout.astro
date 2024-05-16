@@ -11,17 +11,21 @@ interface Props {
 const { title } = Astro.props
 ---
 
-<!doctype html>
 <html lang="en">
   <Head title={title} />
-  <body>
-    <Nav />
-    <slot />
-    <Footer />
-    <style is:global>
-      html {
-        font-family: font-sans;
-      }
-    </style>
+  <body class="no-js">
+    <p class="hidden script-none:block">This page requires JavaScript</p>
+    <p class="hidden script-initial:block">
+      This page requires full JavaScript functionality
+    </p>
+    <div class="hidden script-enabled:block">
+      <Nav />
+      <slot />
+      <Footer />
+    </div>
+    <script>
+      document.body.classList.remove('no-js')
+      document.body.classList.add('js')
+    </script>
   </body>
 </html>

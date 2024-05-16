@@ -1,16 +1,42 @@
 ---
+import { MobileMenu } from '@components/qwik/MobileMenu'
 import { Icon } from 'astro-icon/components'
 ---
 
-<nav class="bg-gray-200 p-4">
+<nav
+  class="bg-gray-200 p-4"
+  role="navigation"
+>
   <div class="flex justify-between">
     <ul class="hidden md:flex md:space-x-4">
-      <li><a href="/" class="block p-2 hover:bg-gray-700">Home</a></li>
-      <li><a href="/about" class="block p-2 hover:bg-gray-700">About</a></li>
       <li>
-        <a href="/contact" class="block p-2 hover:bg-gray-700">Contact</a>
+        <a
+          href="/"
+          class="block p-2 hover:bg-gray-700"
+          >Home</a
+        >
       </li>
-      <li><a href="/blog" class="block p-2 hover:bg-gray-700">Blog</a></li>
+      <li>
+        <a
+          href="/about"
+          class="block p-2 hover:bg-gray-700"
+          >About</a
+        >
+      </li>
+      <li>
+        <a
+          href="/contact"
+          class="block p-2 hover:bg-gray-700"
+          >Contact</a
+        >
+      </li>
+      <li>
+        <a
+          href="/blog"
+          class="block p-2 hover:bg-gray-700"
+          >Blog</a
+        >
+      </li>
     </ul>
     <ul class="hidden md:flex md:space-x-4">
       <li>
@@ -31,4 +57,5 @@ import { Icon } from 'astro-icon/components'
       </li>
     </ul>
   </div>
+  <MobileMenu />
 </nav>

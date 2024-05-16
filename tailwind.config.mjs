@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 import defaultTheme from 'tailwindcss/defaultTheme'
+import plugin from 'tailwindcss/plugin'
 
 export default {
   content: [
@@ -17,5 +18,10 @@ export default {
     require('@tailwindcss/typography'),
     require('@tailwindcss/forms'),
     require('@tailwindcss/container-queries'),
+    plugin(function ({ addVariant }) {
+      addVariant('script-none', '@media (scripting: none)')
+      addVariant('script-initial', '@media (scripting: initial-only)')
+      addVariant('script-enabled', '@media (scripting: enabled)')
+    }),
   ],
 }

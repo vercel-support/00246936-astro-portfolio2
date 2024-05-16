@@ -7,6 +7,16 @@ module.exports = {
     'plugin:eslint-plugin-qwik/recommended',
     'prettier',
   ],
+  rules: {
+    'no-extra-parens': [
+      'all',
+      {
+        ignoreJSX: 'all',
+        returnAssign: false,
+        enforceForArrowConditionals: false,
+      },
+    ],
+  },
   parser: '@typescript-eslint/parser',
   parserOptions: {
     project: ['./tsconfig.json'],
