@@ -12,5 +12,7 @@
       "@pages/*": ["src/pages/*"],
       "@icons/*": ["src/icons/*"]
     }
-  }
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist", ".yarn", ".vscode", "public"]
 }
