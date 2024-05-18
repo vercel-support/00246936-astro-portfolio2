@@ -977,6 +977,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@fontsource/lilita-one@npm:^5.0.20":
+  version: 5.0.20
+  resolution: "@fontsource/lilita-one@npm:5.0.20"
+  checksum: 10c0/b046737b1df0b01739bfbff7c6b042b2d68ca398ebc1177d1ec62d3d1d588370732c61ca160f33c31dc7abf2cae26d0ce2bdb81bafc6d86f71eaef82f8384aa3
+  languageName: node
+  linkType: hard
+
 "@humanwhocodes/config-array@npm:^0.11.14":
   version: 0.11.14
   resolution: "@humanwhocodes/config-array@npm:0.11.14"
@@ -2352,6 +2359,7 @@ __metadata:
     "@eslint/eslintrc": "npm:^3.0.2"
     "@eslint/js": "npm:^8.57.0"
     "@fontsource-variable/inter": "npm:^5.0.18"
+    "@fontsource/lilita-one": "npm:^5.0.20"
     "@iconify-json/simple-icons": "npm:^1.1.101"
     "@iconify-json/solar": "npm:^1.1.9"
     "@qwikdev/astro": "npm:^0.5.15"

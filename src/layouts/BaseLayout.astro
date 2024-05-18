@@ -3,6 +3,7 @@ import Head from './Head.astro'
 import Nav from './Nav.astro'
 import Footer from './Footer.astro'
 import '@fontsource-variable/inter'
+import '@fontsource/lilita-one'
 
 interface Props {
   title: string
@@ -13,7 +14,7 @@ const { title } = Astro.props
 
 <html lang="en">
   <Head title={title} />
-  <body class="no-js">
+  <body class="no-js bg-tasmanGrey-200">
     <p class="hidden script-none:block">This page requires JavaScript</p>
     <p class="hidden script-initial:block">
       This page requires full JavaScript functionality
