@@ -947,8 +947,8 @@ __metadata:
   linkType: hard
 
 "@eslint/eslintrc@npm:^3.0.2":
-  version: 3.0.2
-  resolution: "@eslint/eslintrc@npm:3.0.2"
+  version: 3.1.0
+  resolution: "@eslint/eslintrc@npm:3.1.0"
   dependencies:
     ajv: "npm:^6.12.4"
     debug: "npm:^4.3.2"
@@ -959,7 +959,7 @@ __metadata:
     js-yaml: "npm:^4.1.0"
     minimatch: "npm:^3.1.2"
     strip-json-comments: "npm:^3.1.1"
-  checksum: 10c0/d8c92f06bdf8e2be9fcc0eeac4a9351745174adfcc72571ef3d179101cb55e19f15f6385c2a4f4945a3ba9245802d3371208e2e1e4f00f6bcf6b8711656af85a
+  checksum: 10c0/5b7332ed781edcfc98caa8dedbbb843abfb9bda2e86538529c843473f580e40c69eb894410eddc6702f487e9ee8f8cfa8df83213d43a8fdb549f23ce06699167
   languageName: node
   linkType: hard
 
@@ -981,6 +981,13 @@ __metadata:
   version: 5.0.20
   resolution: "@fontsource/lilita-one@npm:5.0.20"
   checksum: 10c0/b046737b1df0b01739bfbff7c6b042b2d68ca398ebc1177d1ec62d3d1d588370732c61ca160f33c31dc7abf2cae26d0ce2bdb81bafc6d86f71eaef82f8384aa3
+  languageName: node
+  linkType: hard
+
+"@fontsource/righteous@npm:^5.0.20":
+  version: 5.0.20
+  resolution: "@fontsource/righteous@npm:5.0.20"
+  checksum: 10c0/aba1b330eb76426cb95c4900357e6a5294327d40dce7663fc1186cbc37734c87ff396933139d61ad3a18606c62975c566a6307ae5aa63ee1c6e1b247d59d22dd
   languageName: node
   linkType: hard
 
@@ -2360,6 +2367,7 @@ __metadata:
     "@eslint/js": "npm:^8.57.0"
     "@fontsource-variable/inter": "npm:^5.0.18"
     "@fontsource/lilita-one": "npm:^5.0.20"
+    "@fontsource/righteous": "npm:^5.0.20"
     "@iconify-json/simple-icons": "npm:^1.1.101"
     "@iconify-json/solar": "npm:^1.1.9"
     "@qwikdev/astro": "npm:^0.5.15"
@@ -2389,8 +2397,8 @@ __metadata:
   linkType: soft
 
 "astro@npm:^4.8.4":
-  version: 4.8.5
-  resolution: "astro@npm:4.8.5"
+  version: 4.8.6
+  resolution: "astro@npm:4.8.6"
   dependencies:
     "@astrojs/compiler": "npm:^2.8.0"
     "@astrojs/internal-helpers": "npm:0.4.0"
@@ -2461,7 +2469,7 @@ __metadata:
       optional: true
   bin:
     astro: astro.js
-  checksum: 10c0/7b9be8204af74e736e722a0c28c6f1247626f1ab343c9cf380fae4e0be94b5211bba8630ba68a7aa97c2cd016060dcf4a54a91d6c06510f43160a964e961950e
+  checksum: 10c0/4d5db593524f305a178973fd2044604a08a45b07031bcbac9d1550a88ef363c7ff398e9f8c7cf0d1ed07dc783816f6add4c98e78b8c23bbaa510e157965b2241
   languageName: node
   linkType: hard
 
@@ -3399,9 +3407,9 @@ __metadata:
   linkType: hard
 
 "electron-to-chromium@npm:^1.4.668":
-  version: 1.4.773
-  resolution: "electron-to-chromium@npm:1.4.773"
-  checksum: 10c0/eef684e2d64848418080715a76bc4147373d75ade07f65e64a97a3efd52d8c83dd8dd0daadba0d5ca891e3738144f8e97e1b7fe4545de3d15e71cd70ff14b2f1
+  version: 1.4.774
+  resolution: "electron-to-chromium@npm:1.4.774"
+  checksum: 10c0/dc957ee574d14838abd16f48fb3e4bd069bf47807fe02144b850d4903265810e17abc5800a361941f787bd78692cf4f81eab70046a6757eb39e44c91ff520dd4
   languageName: node
   linkType: hard
 
@@ -3546,9 +3554,9 @@ __metadata:
   linkType: hard
 
 "es-module-lexer@npm:^1.5.2":
-  version: 1.5.2
-  resolution: "es-module-lexer@npm:1.5.2"
-  checksum: 10c0/20b6c668691ee81781a0ae56930560c23aa28fb934fce9137820f12ae3726a25626010cbd8ed1775c217d3bae108e23dd7b805f923133dc633bfbbc2b0020524
+  version: 1.5.3
+  resolution: "es-module-lexer@npm:1.5.3"
+  checksum: 10c0/0f50b655490d1048432eac6eec94d99d3933119666ae82be578c3db1ea4b2c594118a336f6b7a3c4e2815355dcc9a469d880acef1c45aa656a5aae8c8ae8e5f6
   languageName: node
   linkType: hard
 
