@@ -1509,6 +1509,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@qwikest/icons@npm:^0.0.13":
+  version: 0.0.13
+  resolution: "@qwikest/icons@npm:0.0.13"
+  peerDependencies:
+    "@builder.io/qwik": ">=1.0.0"
+  checksum: 10c0/7892de78062eb7394d903f0b8ca5d61431ad5b3c6c55ee087b14b9823291627bafb27d8c3bf5214055ab65d736fee743eabe32682cdec4458d2b4be542584dae
+  languageName: node
+  linkType: hard
+
 "@rollup/rollup-android-arm-eabi@npm:4.17.2":
   version: 4.17.2
   resolution: "@rollup/rollup-android-arm-eabi@npm:4.17.2"
@@ -2371,6 +2380,7 @@ __metadata:
     "@iconify-json/simple-icons": "npm:^1.1.101"
     "@iconify-json/solar": "npm:^1.1.9"
     "@qwikdev/astro": "npm:^0.5.15"
+    "@qwikest/icons": "npm:^0.0.13"
     "@tailwindcss/aspect-ratio": "npm:^0.4.2"
     "@tailwindcss/container-queries": "npm:^0.1.1"
     "@tailwindcss/forms": "npm:^0.5.7"

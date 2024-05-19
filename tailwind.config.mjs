@@ -85,6 +85,14 @@ export default {
           950: '#1D1D10',
         },
       },
+      outlineOffset: {
+        n1: '-1px',
+        n2: '-2px',
+        n3: '-4px',
+        n4: '-8px',
+        n5: '-16px',
+        n6: '-32px',
+      },
     },
   },
   plugins: [
