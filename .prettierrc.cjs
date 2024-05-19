@@ -4,6 +4,7 @@ module.exports = {
   trailingComma: 'all',
   printWidth: 80,
   singleAttributePerLine: true,
+  arrowParens: 'avoid',
   plugins: [
     'prettier-plugin-astro',
     'prettier-plugin-packagejson',

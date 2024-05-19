@@ -5,17 +5,9 @@ module.exports = {
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
     'plugin:eslint-plugin-qwik/recommended',
-    'prettier',
   ],
   rules: {
-    'no-extra-parens': [
-      'all',
-      {
-        ignoreJSX: 'all',
-        returnAssign: false,
-        enforceForArrowConditionals: false,
-      },
-    ],
+    'no-confusing-arrow': ['error', { arrowParens: false }],
   },
   parser: '@typescript-eslint/parser',
   parserOptions: {
@@ -23,7 +15,7 @@ module.exports = {
     ecmaVersion: 'latest',
     sourceType: 'module',
   },
-  plugins: ['@typescript-eslint'],
+  plugins: ['@typescript-eslint', '@stylistic'],
   ignorePatterns: [
     'dist/',
     'node_modules/',

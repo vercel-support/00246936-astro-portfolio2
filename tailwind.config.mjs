@@ -84,6 +84,19 @@ export default {
           900: '#3B3B21',
           950: '#1D1D10',
         },
+        brickRed: {
+          300: '#DD6B3D',
+          500: '#D75228',
+          700: '#A03D0A',
+        },
+        slateBlue: {
+          300: '#61DAFB',
+          400: '#06B6D4',
+          500: '#2A3D93',
+        },
+        mediumGreen: {
+          500: '#5FA04E',
+        },
       },
       outlineOffset: {
         n1: '-1px',

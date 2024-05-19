@@ -8,5 +8,17 @@ import db from '@astrojs/db'
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [tailwind(), sitemap(), markdoc(), db(), icon(), qwikdev()],
+  site: 'https://earley.info',
+  integrations: [
+    tailwind(),
+    sitemap({
+      changefreq: 'weekly',
+      priority: 0.8,
+      lastmod: new Date().toISOString(),
+    }),
+    markdoc(),
+    db(),
+    icon(),
+    qwikdev(),
+  ],
 })

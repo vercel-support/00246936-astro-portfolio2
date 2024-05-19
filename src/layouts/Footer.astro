@@ -1,3 +1,17 @@
 ---
-
+const currentYear = new Date().getFullYear()
 ---
+
+<footer
+  class="prose mb-5 mt-10 flex flex-col items-center justify-center italic text-turquoise-500"
+>
+  <p class="mb-1">
+    Designed and built by <a
+      href="https://www.earley.info"
+      class="text-lightTurquoise-600 underline"
+      >Mike Earley</a
+    >
+  </p>
+
+  <p class="mt-1">Copyright &copy; {currentYear}</p>
+</footer>

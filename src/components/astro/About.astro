@@ -1,5 +1,6 @@
 ---
-
+import { Image } from 'astro:assets'
+import mikeIllustration from '../../assets/mike_illustration.jpeg'
 ---
 
 <section
@@ -16,9 +17,9 @@
       high-quality websites and applications.
     </p>
     <div class="flex items-center justify-center">
-      <img
-        src="mike_illustration.jpeg"
-        alt="Mike Illustration"
+      <Image
+        src={mikeIllustration}
+        alt="Mike Earley Illustration"
         class="outline-3 shadow-border mt-8 h-48 w-48 rounded-full border-2 border-cement-500 object-cover object-center outline-dotted outline-offset-n4 outline-darkBlue-700"
       />
     </div>
