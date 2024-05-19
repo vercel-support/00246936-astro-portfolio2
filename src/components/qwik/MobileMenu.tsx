@@ -15,14 +15,14 @@ export const MobileMenu = component$(() => {
 
   return (
     <div class="flex justify-between">
-      <div className="flex flex-col justify-start">
+      <div class="flex flex-col justify-start">
         <div class="md:hidden">
           <button onClick$={toggleMenu}>
             <HiBars3Solid />
           </button>
         </div>
-        <div class="text-xl font-semibold">
-          {menuOpen.value && (
+        {menuOpen.value && (
+          <div class="text-xl font-semibold">
             <div>
               <ul class="space-y-4">
                 <li>
@@ -36,10 +36,10 @@ export const MobileMenu = component$(() => {
                 </li>
               </ul>
             </div>
-          )}
-        </div>
+          </div>
+        )}
       </div>
-      <div class="flex">
+      <div class="flex md:hidden">
         <a href="https://github.com/mearleycf">
           <SiGithub class="mr-4" />
         </a>
