@@ -6,9 +6,7 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
     'plugin:eslint-plugin-qwik/recommended',
   ],
-  rules: {
-    'no-confusing-arrow': ['error', { arrowParens: false }],
-  },
+  rules: {},
   parser: '@typescript-eslint/parser',
   parserOptions: {
     project: ['./tsconfig.json'],

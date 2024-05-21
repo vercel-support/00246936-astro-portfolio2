@@ -15,15 +15,15 @@ const { title } = Astro.props
 
 <html lang="en">
   <Head title={title} />
-  <body class="no-js text-lightBlue-500 m-0 h-full w-screen p-0">
+  <body class="no-js text-lightBlue-500 relative m-0 h-full w-screen p-0">
     <p class="hidden script-none:block">This page requires JavaScript</p>
     <p class="hidden script-initial:block">
       This page requires full JavaScript functionality
     </p>
-    <div class="hidden script-enabled:block">
+    <div class="relative hidden script-enabled:block">
       <Nav />
       <slot />
-      <Footer />
+      <Footer class="relative z-0" />
     </div>
     <script>
       document.body.classList.remove('no-js')

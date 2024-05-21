@@ -16,6 +16,11 @@
       "@assets/*": ["src/assets/*"]
     }
   },
-  "include": ["src/**/*", ".eslintrc.cjs"],
+  "include": [
+    "src/**/*",
+    ".eslintrc.cjs",
+    "astro.config.mjs",
+    "tailwind.config.mjs"
+  ],
   "exclude": ["node_modules", "dist", ".yarn", ".vscode", "public"]
 }

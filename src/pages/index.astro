@@ -2,6 +2,7 @@
 import Layout from '@layouts/BaseLayout.astro'
 import About from '@components/astro/About.astro'
 import Skills from '@components/astro/Skills.astro'
+import Contact from '@components/astro/Contact.astro'
 import staticSvg from '../assets/static_gradient.svg'
 import animatedSvg from '../assets/animated_gradient.svg'
 
@@ -14,14 +15,18 @@ const envSvg = import.meta.env.DEV ? staticSvg.src : animatedSvg.src
     background-size: cover;
     background-repeat: no-repeat;
   }
+  .footer-shadow {
+    box-shadow: 0px -10px 20px 0px rgba(0, 0, 0, 0.8);
+  }
 </style>
 
 <Layout title="Mike Earley's Portfolio">
   <main
-    class="footer-shadow teal-svg"
+    class="teal-svg relative z-10 pb-6 shadow-xl shadow-darkTeal-600"
     style={`background-image: url(${envSvg})`}
   >
     <About />
     <Skills />
+    <Contact />
   </main>
 </Layout>

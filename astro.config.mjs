@@ -1,10 +1,10 @@
+import vercel from '@astrojs/vercel/serverless'
 import { defineConfig } from 'astro/config'
 import tailwind from '@astrojs/tailwind'
 import sitemap from '@astrojs/sitemap'
 import markdoc from '@astrojs/markdoc'
 import qwikdev from '@qwikdev/astro'
 import icon from 'astro-icon'
-import db from '@astrojs/db'
 
 // https://astro.build/config
 export default defineConfig({
@@ -17,8 +17,13 @@ export default defineConfig({
       lastmod: new Date().toISOString(),
     }),
     markdoc(),
-    db(),
     icon(),
     qwikdev(),
   ],
+  output: 'server',
+  adapter: vercel({
+    webAnalytics: {
+      enabled: true,
+    },
+  }),
 })
