@@ -106,6 +106,9 @@ export default {
         n5: '-16px',
         n6: '-32px',
       },
+      boxShadow: {
+        'strong-inner': 'inset 0 0 3px 1px rgba(30, 41, 59, 0.5)',
+      },
     },
   },
   plugins: [
