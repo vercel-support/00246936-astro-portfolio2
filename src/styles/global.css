@@ -14,3 +14,153 @@
 
 @layer components {
 }
+
+/* animating the svg gradient  */
+@keyframes animateStopColorA1 {
+  0% {
+    stop-color: #0b2228;
+  }
+  25% {
+    stop-color: #071418;
+  }
+  50% {
+    stop-color: #030a0c;
+  }
+  75% {
+    stop-color: #020708;
+  }
+  100% {
+    stop-color: #0b2228;
+  }
+}
+
+@keyframes animateStopColorA2 {
+  0% {
+    stop-color: #071418;
+  }
+  25% {
+    stop-color: #030a0c;
+  }
+  50% {
+    stop-color: #020708;
+  }
+  75% {
+    stop-color: #0b2228;
+  }
+  100% {
+    stop-color: #071418;
+  }
+}
+
+@keyframes animateStopColorA3 {
+  0% {
+    stop-color: #030a0c;
+  }
+  25% {
+    stop-color: #020708;
+  }
+  50% {
+    stop-color: #0b2228;
+  }
+  75% {
+    stop-color: #071418;
+  }
+  100% {
+    stop-color: #030a0c;
+  }
+}
+
+@keyframes rotateA {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes animateStopColorB1 {
+  0% {
+    stop-color: #0b2228;
+  }
+  25% {
+    stop-color: #071418;
+  }
+  50% {
+    stop-color: #030a0c;
+  }
+  75% {
+    stop-color: #020708;
+  }
+  100% {
+    stop-color: #0b2228;
+  }
+}
+
+@keyframes animateStopColorB2 {
+  0% {
+    stop-color: #071418;
+  }
+  25% {
+    stop-color: #030a0c;
+  }
+  50% {
+    stop-color: #020708;
+  }
+  75% {
+    stop-color: #0b2228;
+  }
+  100% {
+    stop-color: #071418;
+  }
+}
+
+@keyframes rotateB {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+.gradient-a .stop-a-1 {
+  animation: animateStopColorA1 120s infinite;
+}
+
+.gradient-a .stop-a-2 {
+  animation: animateStopColorA2 120s infinite;
+}
+
+.gradient-a .stop-a-3 {
+  animation: animateStopColorA3 120s infinite;
+}
+
+.gradient-a {
+  animation: rotateA 20s infinite;
+}
+
+.gradient-b .stop-b-1 {
+  animation: animateStopColorB1 120s infinite;
+}
+
+.gradient-b .stop-b-2 {
+  animation: animateStopColorB2 120s infinite;
+}
+
+.gradient-b {
+  animation: rotateB 10s infinite;
+}
+
+/* Media query for reduced motion */
+@media (prefers-reduced-motion) {
+  .gradient-a,
+  .gradient-b,
+  .gradient-a .stop-a-1,
+  .gradient-a .stop-a-2,
+  .gradient-a .stop-a-3,
+  .gradient-b .stop-b-1,
+  .gradient-b .stop-b-2 {
+    animation: none;
+  }
+}
