@@ -10,7 +10,7 @@ const formActionEndpoint = 'https://www.formbackend.com/f/97e9cee4fc8e52c2'
   <form
     method="POST"
     class="grid w-2/3 grid-cols-1 gap-4 md:w-1/2"
-    action="{{ formActionEndpoint }}"
+    action="https://www.formbackend.com/f/97e9cee4fc8e52c2"
     accept-charset="UTF-8"
   >
     <label for="name">Name</label>
@@ -18,7 +18,7 @@ const formActionEndpoint = 'https://www.formbackend.com/f/97e9cee4fc8e52c2'
       type="text"
       id="name"
       name="name"
-      class="shadow-strong-inner rounded-md"
+      class="rounded-md text-darkTeal-500 shadow-strong-inner"
       required
     />
     <label for="email">Email</label>
@@ -26,14 +26,14 @@ const formActionEndpoint = 'https://www.formbackend.com/f/97e9cee4fc8e52c2'
       type="email"
       id="email"
       name="email"
-      class="shadow-strong-inner rounded-md"
+      class="rounded-md text-darkTeal-500 shadow-strong-inner"
       required
     />
     <label for="message">Message</label>
     <textarea
       name="message"
       id="message"
-      class="shadow-strong-inner rounded-md"
+      class="rounded-md text-darkTeal-500 shadow-strong-inner"
       required
     ></textarea>
     <button
