@@ -21,7 +21,8 @@ const { title } = Astro.props
       This page requires full JavaScript functionality
     </p>
     <div
-      class="m:script-enabled:flex m:flex-col m:items-center m:justify-center relative hidden script-enabled:block"
+      id="wrapper"
+      class="relative grid"
     >
       <Nav />
       <slot />
@@ -29,6 +30,10 @@ const { title } = Astro.props
     </div>
     <script>
       document.body.classList.remove('no-js')
+      const wrapper = document.getElementById('wrapper')
+      if (wrapper !== null) {
+        wrapper.classList.remove('hidden')
+      }
       document.body.classList.add('js')
     </script>
   </body>
