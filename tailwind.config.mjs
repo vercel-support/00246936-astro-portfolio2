@@ -17,6 +17,7 @@ export default {
           ...defaultTheme.fontFamily.sans,
         ],
       },
+      spacing: {},
       colors: {
         darkBlue: {
           DEFAULT: '#060047',

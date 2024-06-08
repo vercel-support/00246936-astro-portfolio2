@@ -1,16 +1,16 @@
 ---
-const formActionEndpoint = 'https://www.formbackend.com/f/97e9cee4fc8e52c2'
+const formActionEndpoint = 'https://usebasin.com/f/3f4a0e6abda0'
 ---
 
 <section
   id="skills"
-  class="prose mt-10 flex flex-col items-center justify-center text-lightTurquoise-500 prose-h2:text-lightTurquoise-500"
+  class="mt-10 flex flex-col items-center justify-center text-lightTurquoise-500"
 >
-  <h2 class="font-display text-3xl font-bold">Contact Me</h2>
+  <h2 class="mb-8 font-display text-3xl font-bold">Contact Me</h2>
   <form
     method="POST"
-    class="grid w-2/3 grid-cols-1 gap-4 md:w-1/2"
-    action="https://www.formbackend.com/f/97e9cee4fc8e52c2"
+    class="flex w-2/3 flex-col items-center justify-center gap-4 md:w-1/2"
+    action="https://usebasin.com/f/3f4a0e6abda0"
     accept-charset="UTF-8"
   >
     <label for="name">Name</label>
@@ -18,27 +18,30 @@ const formActionEndpoint = 'https://www.formbackend.com/f/97e9cee4fc8e52c2'
       type="text"
       id="name"
       name="name"
-      class="rounded-md text-darkTeal-500 shadow-strong-inner"
+      class="rounded-md text-darkTeal-500 shadow-strong-inner md:w-2/3"
       required
+      autocomplete="on"
     />
     <label for="email">Email</label>
     <input
       type="email"
       id="email"
       name="email"
-      class="rounded-md text-darkTeal-500 shadow-strong-inner"
+      class="rounded-md text-darkTeal-500 shadow-strong-inner md:w-2/3"
       required
+      autocomplete="on"
     />
     <label for="message">Message</label>
     <textarea
       name="message"
       id="message"
-      class="rounded-md text-darkTeal-500 shadow-strong-inner"
+      class="rounded-md text-darkTeal-500 shadow-strong-inner md:w-2/3"
       required
+      autocomplete="on"
     ></textarea>
     <button
       type="submit"
-      class="text-whiteb font-boldr mt-6 rounded-md bg-turquoise-500"
+      class="font-boldr mt-6 h-12 rounded-md bg-turquoise-500 text-white md:w-40"
       >Submit</button
     >
   </form>
