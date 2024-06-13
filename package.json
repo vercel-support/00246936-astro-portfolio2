@@ -6,6 +6,7 @@
     "astro": "astro",
     "build": "astro check && astro build",
     "check": "yarn lint && yarn format && yarn typecheck",
+    "deploy": "astro build && vercel deploy --prebuilt",
     "dev": "astro dev",
     "fix": "prettier --write --log-level warn . && yarn lint -- --fix",
     "format": "prettier --write './**/*.{js,jsx,json,cjs,mjs,ts,tsx,html,astro}'",

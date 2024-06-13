@@ -1,0 +1,34 @@
+{
+  "manifestHash": "i4anof",
+  "symbols": {},
+  "mapping": {},
+  "bundles": {
+    "MobileMenu.CFNh9oak.js": {
+      "size": 61671,
+      "origins": [
+        "@builder.io/qwik/build",
+        "node_modules/@builder.io/qwik/core.prod.mjs",
+        "node_modules/@qwikest/icons/lib/hi.qwik.mjs",
+        "node_modules/@qwikest/icons/lib/si.qwik.mjs",
+        "src/components/qwik/MobileMenu.tsx"
+      ]
+    }
+  },
+  "injections": [],
+  "version": "1",
+  "options": {
+    "target": "client",
+    "buildMode": "production",
+    "entryStrategy": {
+      "type": "hoist"
+    }
+  },
+  "platform": {
+    "qwik": "1.5.5",
+    "vite": "",
+    "rollup": "4.18.0",
+    "env": "node",
+    "os": "darwin",
+    "node": "21.7.3"
+  }
+}
