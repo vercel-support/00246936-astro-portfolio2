@@ -1,0 +1,102 @@
+{
+  "manifestHash": "czczb7",
+  "symbols": {
+    "s_v72dCpAwhTk": {
+      "origin": "components/qwik/MobileMenu.tsx",
+      "displayName": "MobileMenu_component",
+      "canonicalFilename": "s_v72dcpawhtk",
+      "hash": "v72dCpAwhTk",
+      "ctxKind": "function",
+      "ctxName": "component$",
+      "captures": false,
+      "parent": null,
+      "loc": [
+        265,
+        1464
+      ]
+    },
+    "s_diOlPCOol7k": {
+      "origin": "components/qwik/MobileMenu.tsx",
+      "displayName": "MobileMenu_component_toggleMenu",
+      "canonicalFilename": "s_diolpcool7k",
+      "hash": "diOlPCOol7k",
+      "ctxKind": "function",
+      "ctxName": "$",
+      "captures": true,
+      "parent": "s_v72dCpAwhTk",
+      "loc": [
+        332,
+        489
+      ]
+    }
+  },
+  "mapping": {
+    "s_v72dCpAwhTk": "q-BrGLRyEg.js",
+    "s_diOlPCOol7k": "q-CPoz-zuZ.js"
+  },
+  "bundles": {
+    "q-BrGLRyEg.js": {
+      "size": 3204,
+      "imports": [
+        "q-DB8eCgo8.js"
+      ],
+      "dynamicImports": [
+        "q-CPoz-zuZ.js"
+      ],
+      "origins": [
+        "node_modules/@qwikest/icons/lib/hi.qwik.mjs",
+        "node_modules/@qwikest/icons/lib/si.qwik.mjs",
+        "src/s_v72dcpawhtk.js"
+      ],
+      "symbols": [
+        "s_v72dCpAwhTk"
+      ]
+    },
+    "q-CPoz-zuZ.js": {
+      "size": 231,
+      "imports": [
+        "q-DB8eCgo8.js"
+      ],
+      "origins": [
+        "src/s_diolpcool7k.js"
+      ],
+      "symbols": [
+        "s_diOlPCOol7k"
+      ]
+    },
+    "q-DB8eCgo8.js": {
+      "size": 60786,
+      "dynamicImports": [
+        "q-BrGLRyEg.js"
+      ],
+      "origins": [
+        "@builder.io/qwik/build",
+        "node_modules/@builder.io/qwik/core.prod.mjs",
+        "src/components/qwik/MobileMenu.tsx"
+      ]
+    },
+    "q-DQsVud3v.js": {
+      "size": 56,
+      "imports": [
+        "q-DB8eCgo8.js"
+      ]
+    }
+  },
+  "injections": [],
+  "version": "1",
+  "options": {
+    "target": "client",
+    "buildMode": "production",
+    "entryStrategy": {
+      "type": "hook"
+    }
+  },
+  "platform": {
+    "qwik": "1.5.7",
+    "vite": "",
+    "rollup": "4.18.0",
+    "env": "node",
+    "os": "darwin",
+    "node": "18.20.3"
+  }
+}

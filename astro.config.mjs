@@ -21,9 +21,5 @@ export default defineConfig({
     qwikdev(),
   ],
   output: 'server',
-  adapter: vercel({
-    webAnalytics: {
-      enabled: true,
-    },
-  }),
+  adapter: vercel(),
 })
