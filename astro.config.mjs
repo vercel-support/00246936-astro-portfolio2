@@ -1,4 +1,3 @@
-import vercel from '@astrojs/vercel/serverless'
 import { defineConfig } from 'astro/config'
 import tailwind from '@astrojs/tailwind'
 import sitemap from '@astrojs/sitemap'
@@ -20,6 +19,4 @@ export default defineConfig({
     icon(),
     qwikdev(),
   ],
-  output: 'server',
-  adapter: vercel(),
 })
