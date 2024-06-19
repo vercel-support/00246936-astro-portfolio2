@@ -5,6 +5,8 @@ import markdoc from '@astrojs/markdoc'
 import qwikdev from '@qwikdev/astro'
 import icon from 'astro-icon'
 
+import vercel from '@astrojs/vercel/serverless'
+
 // https://astro.build/config
 export default defineConfig({
   site: 'https://earley.info',
@@ -19,4 +21,6 @@ export default defineConfig({
     icon(),
     qwikdev(),
   ],
+  output: 'server',
+  adapter: vercel(),
 })
